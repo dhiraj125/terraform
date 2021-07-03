@@ -15,6 +15,6 @@ variable "AMIs" {
   type = map
   default = {
       us-west-2 = "ami-03ac21435677d3cb3"
-      us-west-1 = "	ami-008464c6813f3241e"
+      us-west-1 = "ami-008464c6813f3241e"
   }
 }
