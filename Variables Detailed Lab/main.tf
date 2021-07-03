@@ -1,5 +1,5 @@
 resource "aws_instance" "MyFirstInstnace" {
-  ami           = "ami-0dd273d94ed0540c0"
+  ami           = lookup(var.AMIs, var.AWS_Region)
   instance_type = "t2.micro"
   tags = {
       Name = "Instance created using Variable"
