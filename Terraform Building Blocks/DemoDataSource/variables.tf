@@ -5,7 +5,7 @@ variable "AWS_ACCESS_KEY" {
 
 variable "AWS_SECRET_KEY" {
   type=string
-  default = "kjhikCCIyvInyQhnZPD2y35NgOwHjpcF3SonNx6y"
+  default = ""
 }
 
 variable "AWS_REGION" {
