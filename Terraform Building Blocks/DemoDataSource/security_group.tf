@@ -1,6 +1,6 @@
 data "aws_ip_ranges" "us_west_ip_ranges" {
-    region=["us-west-1","us-west-2"]
-    resources =["ec2"]
+    regions=["us-west-1","us-west-2"]
+    services =["ec2"]
 }
 
 resource "aws_security_group" "sg-custom-security-group" {
