@@ -1,5 +1,5 @@
 module "dev-qa-vpc"{
-    source                          = "../../Terraform With Modules - Local"
+    source                          = "../../customvpc"
 
     vpcname                         = "dev02-qa-vpc"
     cidr                            = "10.0.1.0/24"
